@@ -45,3 +45,25 @@
 .btn_div button{
     width: 100px;
 }
+
+.btn_div{
+    margin: 0 auto;
+    padding:  20px 0;
+}
+
+#biglietto{
+    width: 70%;
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+}
+#price{
+    display: flex;
+    width: 95%;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+#price div{
+    width:20%
+}
