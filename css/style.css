@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main_part{
+    background-color: rgba(134, 7, 75, 0.915);
+    color: white;
+    text-align: center;
+}
+
+.main_part h1{
+    padding: 20px 0;
+} 
+
+#insert{
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info{
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info h3{
+    color: rgba(134, 7, 75, 0.915);
+    margin: 20px 0;
+}
+
+.info input{
+    border: 2px solid rgba(134, 7, 75, 0.915);
+}
+
+.btn_div button{
+    width: 100px;
+}
