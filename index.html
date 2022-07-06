@@ -15,24 +15,31 @@
     <section id="insert">
         <div class="info">
             <h3>Nome e cognome</h3>
-            <input id="inputNome" type="">
+            <label for="inputNome">Nome e Cognome</label>
+            <input id="inputNome" type="text">
         </div>
 
         <div class="info">
             <h3>Km da Percorrere</h3>
-            <input id="km_da_percorrere" type="">
+            <label for="inputNome">Km da percorrere</label>
+            <input id="km_da_percorrere" type="number">
         </div>
 
         <div class="info">
             <h3>Fascia età</h3>
-            <input id="inputEta" type="">
+            <label for="inputEta">Fascia di età</label>
+            <select name="" id="age">
+                <option value="junior">Minorenne</option>
+                <option value="normal">Maggiorenne</option>
+                <option value="senior">Over 65</option>
+            </select>
         </div>
 
         <div class="btn_div">
             <button id="genera">
                 Genera
             </button>
-            <button>
+            <button id="cancel">
                 Annulla
             </button>
         </div>
@@ -44,18 +51,23 @@
         <section id="price">
         <div id="name">
             <h4>NOME PASSEGGERO</h4>
+            <h5 id="passenger-name"></h5>
         </div>
         <div id="offerta">
             <h6>Offerta</h6>
+            <span id="promo"></span>
         </div>
         <div id="carrozza">
             <h6>Carrozza</h6>
+            <span id="carrozza"></span>
         </div>
         <div>
             <h6 id="cp">Codice CP</h6>
+            <span id="prenotation-code"></span>
         </div>
         <div id="costo">
             <h6>Costo Biglietto</h6>
+            <span id="ticket-price"></span>
         </div>
     </section>
     </section>

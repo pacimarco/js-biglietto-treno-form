@@ -34,8 +34,8 @@ document.getElementById('genera').addEventListener('click',
 
         const nomePasseggero = document.getElementById('inputNome').value;
         console.log('nomePasseggero---->', nomePasseggero);
-
-        const etaPasseggero = document.getElementById('inputEta').value;
+        
+        const etaPasseggero = document.getElementById('age').value;
         
         const etaNumero = parseInt(etaPasseggero);
         console.log('ETAPASSEGGERO---->', etaPasseggero);
